@@ -1,0 +1,196 @@
+/*
+* 
+* @author Enzo Fernandes Sarmento
+*/
+
+
+body {
+    background: url(../img/bursts-mobile.svg) repeat-x fixed,
+                url(../img/ruido.png) fixed,
+                linear-gradient(50deg, #1ED760, #2940a8) fixed;
+    font-family: Helvetica, Arial, sans-serif ;            
+}
+
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Barra de Navegação */
+
+nav.navbar-transparente {
+    background: rgba(0,0, 0, 0.6);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1ED760 !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .5);
+}
+
+.barra {
+    height: 18px;
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+/* Capa */
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background: #1ED760;
+    color: #2940a8;
+}
+
+.btn-roxo:hover {
+    background: white;
+    color: black;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background: white;
+    color: black;
+}
+
+.carousel-control-prev {
+    width: 5%;
+}
+
+.carousel-control-next {
+    width: 5%;
+}
+
+
+
+h1 {
+    font-weight: 900 !important;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+    color: white;
+    text-decoration-style: solid;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2, h3 {
+    color:#2940a8;
+}
+
+#servicos p {
+    text-align: justify;
+}
+
+#recursos {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos p {
+    color: white;
+    text-align: justify;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/* Rodapé */
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+h4 {
+  color: #919496;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #1ED760;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3.5em !important;
+        letter-spacing: -0.02em !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 3.8em !important;
+        letter-spacing: -0.03em !important;
+    }
+}
